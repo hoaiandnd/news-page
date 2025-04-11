@@ -4,12 +4,18 @@ class MockApi {
   static resolve(value) {
     return Promise.resolve(value)
   }
+  static getCategories() {
+    return MockApi.resolve(mockCategories)
+  }
   /**
    *
    * @param {number} limit
    */
   static getNews(offset = 0, limit = 10) {
     return MockApi.resolve(mockNews.slice(offset, limit))
+  }
+  static getNewsById(id) {
+    return MockApi.resolve(mockNews.find(news => news.id === +id))
   }
   static getCategoriesAndRelatedNews() {
     return MockApi.resolve(
@@ -19,8 +25,12 @@ class MockApi {
       }))
     )
   }
-  static getCategories() {
-    return MockApi.resolve(mockCategories)
+  static getCategoryAndRelatedNews(id) {
+    const category = mockCategories.find(cat => cat.id === +id)
+    if (!category) {
+      return MockApi.resolve(null)
+    }
+    return MockApi.resolve({ ...category, newsList: mockNews.filter(news => news.categoryId === category.id) })
   }
 }
 

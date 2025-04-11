@@ -3,33 +3,39 @@
     "id": 1,
     "title": "Anh kia đập đánh chị này",
     "image": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+    "content": "Nội dung tin tức 1",
     "categoryId": 1
   },
   {
     "id": 2,
     "title": "Anh kia lừa dối chị này",
     "image": "https://fastly.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68",
+    "content": "Nội dung tin tức 1",
     "categoryId": 1
   },
   {
     "id": 3,
     "title": "Tin tức nóng hổi: Động đất lớn xảy ra tại thành phố 3",
     "image": "https://fastly.picsum.photos/id/11/2500/1667.jpg?hmac=xxjFJtAPgshYkysU_aqx2sZir-kIOjNR9vx0te7GycQ",
+    "content": "Nội dung tin tức 1",
     "categoryId": 1
   },
   {
     "id": 4,
     "title": "Đền Hùng đông nghịt người trước ngày giỗ Tổ",
+    "content": "Nội dung tin tức 1",
     "image": "https://fastly.picsum.photos/id/12/2500/1667.jpg?hmac=Pe3284luVre9ZqNzv1jMFpLihFI6lwq7TPgMSsNXw2w",
     "categoryId": 2
   },
   {
     "id": 5,
+    "content": "Nội dung tin tức 1",
     "title": "Cấp xã sẽ có trung tâm hành chính công",
     "image": "https://fastly.picsum.photos/id/17/2500/1667.jpg?hmac=HD-JrnNUZjFiP2UZQvWcKrgLoC_pc_ouUSWv8kHsJJY",
     "categoryId": 2
   },
   {
+    "content": "Nội dung tin tức 1",
     "id": 6,
     "title": "Cả nước dự kiến còn 5.000 xã phường",
     "image": "https://fastly.picsum.photos/id/20/3670/2462.jpg?hmac=CmQ0ln-k5ZqkdtLvVO23LjVAEabZQx2wOaT4pyeG10I",
@@ -37,6 +43,7 @@
   },
   {
     "id": 7,
+    "content": "Nội dung tin tức 1",
     "title": "Cả nước dự kiến còn 5.000 xã phường",
     "image": "https://fastly.picsum.photos/id/21/3008/2008.jpg?hmac=T8DSVNvP-QldCew7WD4jj_S3mWwxZPqdF0CNPksSko4",
     "categoryId": 3
@@ -45,6 +52,7 @@
     "id": 8,
     "title": "Cả nước dự kiến còn 5.000 xã phường",
     "image": "https://fastly.picsum.photos/id/28/4928/3264.jpg?hmac=GnYF-RnBUg44PFfU5pcw_Qs0ReOyStdnZ8MtQWJqTfA",
+    "content": "Nội dung tin tức 1",
     "categoryId": 3
   }
 ]

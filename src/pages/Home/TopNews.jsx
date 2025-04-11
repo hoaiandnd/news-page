@@ -1,6 +1,7 @@
 import NewsSlider from '@/components/NewsSlider'
 import MockApi from '@/mocks/MockApi'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 const sliderImageCount = 2
 const restImageCount = 6
@@ -24,7 +25,7 @@ function TopNews() {
                   <div className='tn-img'>
                     <img src={news.image} />
                     <div className='tn-title'>
-                      <a href=''>{news.title}</a>
+                      <Link to={`/news/${news.id}`}>{news.title}</Link>
                     </div>
                   </div>
                 </div>
