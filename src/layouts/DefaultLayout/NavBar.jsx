@@ -1,6 +1,14 @@
+import MockApi from '@/mocks/MockApi'
+import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
 
 function NavBar() {
+  const [categories, setCategories] = useState([])
+
+  useEffect(() => {
+    MockApi.getCategories().then(setCategories)
+  }, [])
+  console.log(categories)
   return (
     <>
       <div className='nav-bar'>
@@ -19,24 +27,24 @@ function NavBar() {
                   to={'/'}
                   className={({ isActive }) => (isActive ? 'nav-item nav-link active' : 'nav-item nav-link')}
                 >
-                  Home
+                  Trang chủ
                 </NavLink>
                 <div className='nav-item dropdown'>
                   <a href='#' className='nav-link dropdown-toggle' data-toggle='dropdown'>
-                    Dropdown
+                    Danh mục
                   </a>
                   <div className='dropdown-menu'>
-                    <a href='#' className='dropdown-item'>
-                      Sub Item 1
-                    </a>
-                    <a href='#' className='dropdown-item'>
-                      Sub Item 2
-                    </a>
+                    {categories.map(category => (
+                      <NavLink
+                        key={category.id}
+                        to={`/category/${category.id}`}
+                        className={({ isActive }) => (isActive ? 'dropdown-item active' : 'dropdown-item')}
+                      >
+                        {category.title}
+                      </NavLink>
+                    ))}
                   </div>
                 </div>
-                <a href='single-page.html' className='nav-item nav-link'>
-                  Single Page
-                </a>
                 <a href='contact.html' className='nav-item nav-link'>
                   Contact Us
                 </a>
