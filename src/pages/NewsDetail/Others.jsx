@@ -2,6 +2,11 @@ import MockApi from '@/mocks/MockApi'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
+/**
+ *
+ * @param {{categoryId: string}} param0
+ * @returns
+ */
 function Others({ categoryId }) {
   const [others, setOthers] = useState()
   useEffect(() => {

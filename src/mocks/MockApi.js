@@ -1,5 +1,6 @@
 import mockNews from './news.mock.json'
 import mockCategories from './category.mock.json'
+
 class MockApi {
   static resolve(value) {
     return Promise.resolve(value)
