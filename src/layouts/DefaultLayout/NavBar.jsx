@@ -46,7 +46,7 @@ function NavBar() {
                   </div>
                 </div>
                 <a href='contact.html' className='nav-item nav-link'>
-                  Contact Us
+                  Liên Hệ Với Chúng Tôi
                 </a>
               </div>
               <div className='social ml-auto'>

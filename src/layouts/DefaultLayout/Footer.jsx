@@ -8,26 +8,27 @@ function Footer() {
             <div className='row'>
               <div className='col-lg-3 col-md-6'>
                 <div className='footer-widget'>
-                  <h3 className='title'>Get in Touch</h3>
+                  <h3 className='title'>Liên Hệ</h3>
                   <div className='contact-info'>
                     <p>
                       <i className='fa fa-map-marker' />
-                      123 News Street, NY, USA
+                      180 Cao Lỗ ,Phường 4, Quân 8,tp.Hồ Chí Minh 
                     </p>
                     <p>
                       <i className='fa fa-envelope' />
-                      info@example.com
+                      trantrongnhan2706@gmail.com
                     </p>
                     <p>
                       <i className='fa fa-phone' />
-                      +123-456-7890
+                      0327232028
                     </p>
                     <div className='social'>
                       <a href=''>
                         <i className='fab fa-twitter' />
                       </a>
                       <a href=''>
-                        <i className='fab fa-facebook-f' />
+                        <i className='fab fa-facebook-f'  />
+                        
                       </a>
                       <a href=''>
                         <i className='fab fa-linkedin-in' />
@@ -45,7 +46,7 @@ function Footer() {
 
               <div className='col-lg-3 col-md-6'>
                 <div className='footer-widget'>
-                  <h3 className='title'>Useful Links</h3>
+                  <h3 className='title'>Liên Kết hữu ích</h3>
                   <ul>
                     <li>
                       <a href='#'>Lorem ipsum</a>
@@ -68,7 +69,7 @@ function Footer() {
 
               <div className='col-lg-3 col-md-6'>
                 <div className='footer-widget'>
-                  <h3 className='title'>Quick Links</h3>
+                  <h3 className='title'>Liên Kết Nhanh </h3>
                   <ul>
                     <li>
                       <a href='#'>Lorem ipsum</a>
@@ -91,11 +92,10 @@ function Footer() {
 
               <div className='col-lg-3 col-md-6'>
                 <div className='footer-widget'>
-                  <h3 className='title'>Newsletter</h3>
+                  <h3 className='title'>Bản Tin</h3>
                   <div className='newsletter'>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed porta dui. Class aptent
-                      taciti sociosqu
+                    Xã hội học taciti giai cấp thích hợp
                     </p>
                     <form>
                       <input className='form-control' type='email' placeholder='Your email here' />
@@ -113,12 +113,12 @@ function Footer() {
         <div className='footer-menu'>
           <div className='container'>
             <div className='f-menu'>
-              <a href=''>Terms of use</a>
-              <a href=''>Privacy policy</a>
+              <a href=''>điều khoản sử dụng</a>
+              <a href=''>Chinh sách báo mât</a>
               <a href=''>Cookies</a>
-              <a href=''>Accessibility help</a>
-              <a href=''>Advertise with us</a>
-              <a href=''>Contact us</a>
+              <a href=''>Trợ giúp về khả năng tiếp cận</a>
+              <a href=''>Quan cáo với chúng tôi</a>
+              <a href=''>Liên Hệ Với Chúng Tôi</a>
             </div>
           </div>
         </div>

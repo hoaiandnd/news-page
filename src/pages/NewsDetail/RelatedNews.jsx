@@ -2,7 +2,7 @@ function RelatedNews() {
   return (
     <>
       <div className='sn-related'>
-        <h2>Related News</h2>
+        <h2>Tin tức liên quan</h2>
         <div className='row sn-slider'>
           <div className='col-md-4'>
             <div className='sn-img'>
