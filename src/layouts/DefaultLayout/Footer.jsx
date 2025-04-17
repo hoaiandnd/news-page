@@ -23,20 +23,20 @@ function Footer() {
                       0327232028
                     </p>
                     <div className='social'>
-                      <a href=''>
+                      <a href=' https://x.com/?lang=vi'>
                         <i className='fab fa-twitter' />
                       </a>
-                      <a href=''>
+                      <a href='https://www.facebook.com/stories/102379145263129/?view_single=false'>
                         <i className='fab fa-facebook-f'  />
                         
                       </a>
-                      <a href=''>
+                      <a href='https://www.linkedin.com/'>
                         <i className='fab fa-linkedin-in' />
                       </a>
-                      <a href=''>
+                      <a href='https://www.instagram.com/'>
                         <i className='fab fa-instagram' />
                       </a>
-                      <a href=''>
+                      <a href='https://www.youtube.com/'>
                         <i className='fab fa-youtube' />
                       </a>
                     </div>
@@ -49,19 +49,19 @@ function Footer() {
                   <h3 className='title'>Liên Kết hữu ích</h3>
                   <ul>
                     <li>
-                      <a href='#'>Lorem ipsum</a>
+                      <a href='#'>Sức khỏe</a>
                     </li>
                     <li>
-                      <a href='#'>Pellentesque</a>
+                      <a href='#'>Thể thao </a>
                     </li>
                     <li>
-                      <a href='#'>Aenean vulputate</a>
+                      <a href='#'>Pháp luật</a>
                     </li>
                     <li>
-                      <a href='#'>Vestibulum sit amet</a>
+                      <a href='#'>Giao dục</a>
                     </li>
                     <li>
-                      <a href='#'>Nam dignissim</a>
+                      <a href='#'>Khoa học</a>
                     </li>
                   </ul>
                 </div>
@@ -72,19 +72,19 @@ function Footer() {
                   <h3 className='title'>Liên Kết Nhanh </h3>
                   <ul>
                     <li>
-                      <a href='#'>Lorem ipsum</a>
+                      <a href='#'>xe </a>
                     </li>
                     <li>
-                      <a href='#'>Pellentesque</a>
+                      <a href='#'>du lịch</a>
                     </li>
                     <li>
-                      <a href='#'>Aenean vulputate</a>
+                      <a href='#'>ý kiến</a>
                     </li>
                     <li>
-                      <a href='#'>Vestibulum sit amet</a>
+                      <a href='#'>tâm sự</a>
                     </li>
                     <li>
-                      <a href='#'>Nam dignissim</a>
+                      <a href='#'>thư giãn</a>
                     </li>
                   </ul>
                 </div>
@@ -98,7 +98,7 @@ function Footer() {
                     Xã hội học taciti giai cấp thích hợp
                     </p>
                     <form>
-                      <input className='form-control' type='email' placeholder='Your email here' />
+                      <input className='form-control' type='email' placeholder='Nhập Email của bạn ở đây' />
                       <button className='btn'>Submit</button>
                     </form>
                   </div>
@@ -130,13 +130,13 @@ function Footer() {
             <div className='row'>
               <div className='col-md-6 copyright'>
                 <p>
-                  Copyright © <a href='https://htmlcodex.com'>HTML Codex</a>. All Rights Reserved
+                  Trần Trọng Nhân
                 </p>
               </div>
 
               <div className='col-md-6 template-by'>
                 <p>
-                  Template By <a href='https://htmlcodex.com'>HTML Codex</a>
+                  STU 
                 </p>
               </div>
             </div>

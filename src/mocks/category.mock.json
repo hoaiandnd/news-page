@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "title": "Electronics"
+    "title": "điện tử"
   },
   {
     "id": 2,
-    "title": "Books"
+    "title": "Sách"
   },
   {
     "id": 3,
-    "title": "Clothing"
+    "title": "Quần áo"
   },
   {
     "id": 4,
-    "title": "Home & Kitchen"
+    "title": "Nhà và Bếp"
   },
   {
     "id": 5,
-    "title": "Sports & Outdoors"
+    "title": "Thế thao và Ngoài trời"
   },
   {
     "id": 6,
-    "title": "Toys & Games 2"
+    "title": "Đồ chơi và trò chơi"
   }
 ]

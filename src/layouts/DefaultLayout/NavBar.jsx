@@ -50,19 +50,19 @@ function NavBar() {
                 </a>
               </div>
               <div className='social ml-auto'>
-                <a href=''>
+                <a href='https://x.com/?lang=vi'>
                   <i className='fab fa-twitter' />
                 </a>
-                <a href=''>
+                <a href='https://www.facebook.com/stories/102379145263129/?view_single=false'>
                   <i className='fab fa-facebook-f' />
                 </a>
-                <a href=''>
+                <a href='https://www.linkedin.com'>
                   <i className='fab fa-linkedin-in' />
                 </a>
-                <a href=''>
+                <a href='https://www.instagram.com'>
                   <i className='fab fa-instagram' />
                 </a>
-                <a href=''>
+                <a href='https://www.youtube.com'>
                   <i className='fab fa-youtube' />
                 </a>
               </div>
