@@ -45,9 +45,9 @@ function NavBar() {
                     ))}
                   </div>
                 </div>
-                <a href='contact.html' className='nav-item nav-link'>
+                <NavLink to={'contact'} className='nav-item nav-link'>
                   Liên Hệ Với Chúng Tôi
-                </a>
+                </NavLink>
               </div>
               <div className='social ml-auto'>
                 <a href='https://x.com/?lang=vi'>
